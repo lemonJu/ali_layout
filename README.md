@@ -11,7 +11,7 @@
 ![Alt text](http://1.cutexie.sinaapp.com/ali/7.jpg)
 ![Alt text](http://1.cutexie.sinaapp.com/ali/8.jpg)
 
-还没有列举出来的，我们在一起讨论总结下。
+有列举出来的，我们在一起讨论总结下。
 
 ##关于布局方式
 布局方式应该是比较多，群里面也提到了尽量做兼容，做不到兼容就列出兼容性，所以div布局table布局设置flex grid布局应该都可以上，我们先总结下可能的布局在讨论怎么写代码吧。
