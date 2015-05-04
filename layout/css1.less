@@ -1,0 +1,84 @@
+@charset "utf-8";
+html,body{padding:0;margin:0;}
+div{
+	text-align:center;
+	color:#fff;
+	font-size:20px;
+	font-family: "微软雅黑";
+}
+@wrap_w:940px;
+.wrap {
+  width:@wrap_w;
+  margin: 0 auto;
+}
+.header{
+	width:100%;
+	height:80px;
+	line-height:80px;
+	background:red;
+}
+@sideBar_w:140px;
+.content{
+	position: relative;
+}
+.subContent{
+	padding-left: @sideBar_w;
+}
+@nav_h:80px;
+.nav{
+	width:100%;
+	background:orange;
+	height: @nav_h;
+	line-height:@nav_h;
+}
+@conve_w:200px;
+.ads_conve_Wrap{
+	padding-right: @conve_w;
+	position: relative;
+}
+.ads{
+	@height:320px;
+	float: left;
+	width: 100%;
+	height: @height;
+	line-height: @height;
+	background: #ddd;
+}
+.conve{
+	position: absolute;
+	top:0;
+	right:0;
+	@height: 600px;
+	width:@conve_w;
+	height: @height;
+	line-height: @height;
+	float: left;
+	background: yellow;
+
+}
+.sidebar{
+	@height:400px;
+	position: absolute;
+	top:0;
+	left: 0;
+	width: @sideBar_w;
+	background: green;
+	height: @height;
+	line-height: @height;
+}
+.main{
+	@height: 280px;
+	float: left;
+	width: 740px;
+	height: @height;
+	line-height: @height;
+	background: black;
+}
+.footer{
+	@height:100px;
+	clear: both;
+	width: 100%;
+	height: @height;
+	line-height: @height;
+	background: gray;
+}
