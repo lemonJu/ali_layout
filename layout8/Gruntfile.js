@@ -6,14 +6,6 @@ module.exports = function (grunt) {
                 files: {
                     'css/style.css': 'css/style.less'
                 }
-            },
-            yuicompress: {
-                files: {
-                    'css/style-min.css': 'css/style.css'
-                },
-                options: {
-                    yuicompress: true
-                }
             }
         },
         watch: {
