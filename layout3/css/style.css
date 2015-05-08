@@ -1,0 +1,65 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+#container {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: "Microsoft Yahei";
+}
+#container header {
+  width: auto;
+  height: 200px;
+  border: 2px solid #000000;
+  background-color: #b3b3b3;
+  position: relative;
+}
+#container header #logo {
+  width: 20%;
+  height: auto;
+  border: 2px solid #000000;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  top: 10px;
+}
+#container header nav {
+  width: 70%;
+  height: 40px;
+  border: 2px solid #000000;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+#container section {
+  display: block;
+  width: 100%;
+  height: 404px;
+  margin-top: 10px;
+}
+#container section:after {
+  clear: both;
+  overflow: hidden;
+}
+#container section article {
+  width: 48%;
+  height: 400px;
+  border: 2px solid #000000;
+  background-color: #e0f2be;
+  float: left;
+}
+#container section aside {
+  width: 48%;
+  height: 400px;
+  border: 2px solid #000000;
+  background-color: #C6E746;
+  float: right;
+}
+#container footer {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  border: 2px solid #000000;
+  background-color: #b3b3b3;
+}
