@@ -1,0 +1,72 @@
+@charset "utf-8";
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrap {
+  width: 940px;
+  margin: 0 auto;
+}
+#top {
+  height: 80px;
+  background: red;
+}
+#content {
+  overflow: hidden;
+}
+#left {
+  float: left;
+  width: 440px;
+}
+#right {
+  float: right;
+  width: 500px;
+}
+.side {
+  height: 300px;
+  background: green;
+}
+.page {
+  width: 210px;
+  height: 200px;
+  margin-right: 20px;
+  float: left;
+}
+.page1 {
+  width: 210px;
+  height: 200px;
+  margin-right: 20px;
+  float: left;
+  background: orange;
+}
+.page2 {
+  width: 210px;
+  height: 200px;
+  margin-right: 20px;
+  float: left;
+  margin-right: 0;
+  background: black;
+}
+.pageside {
+  width: 100%;
+  height: 250px;
+  float: left;
+}
+.pageside1 {
+  background: gray;
+  width: 100%;
+  height: 250px;
+  float: left;
+}
+.pageside2 {
+  background: yellow;
+  width: 100%;
+  height: 250px;
+  float: left;
+}
+#footer {
+  clear: both;
+  height: 80px;
+  background: gray;
+}
