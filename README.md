@@ -1,4 +1,14 @@
+
 ## 关于这次作业
+
+#### 账号列表
+
+1. 谢鹏程  lemonju
+2. 杨广 HellowVirgil
+3. 费稚卿 blairFzq
+4. 任洋iyang519
+
+
 ####要求：实现常用的所有布局
 我参考了一些网上的布局图片，收集了部分图片过来，列举在下面：
 
@@ -28,3 +38,7 @@
 ![Alt text](http://heyuchan.com/wp-content/uploads/2015/02/03布局实现.png)
 
 <p align="right">2015/5/3 <b>杨广</b></p>
+
+
+
+
